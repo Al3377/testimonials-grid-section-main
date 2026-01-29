@@ -16,17 +16,6 @@ img {
 body {
   font-size: 13px;
 }
-/* .barlow-semi-condensed-medium {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.barlow-semi-condensed-semibold {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-} */
 
 /* ==== VARIABLES ==== */
 :root {
@@ -75,8 +64,7 @@ body {
 }
 
 article {
-  background-color: var(--prim-purple);
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 30px;
   padding: 30px;
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -103,11 +91,19 @@ img {
   border: 2px solid var(--prim-purple-300);
 }
 
+.attribution {
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  color: var(--prim-purple);
+}
+
 /* ==== MEDIA QUERIES ==== */
 
 @media (min-width: 1024px) {
   main {
-    margin: 220px auto;
+    margin: 200px auto;
     max-width: 1110px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
