@@ -124,7 +124,7 @@ img {
   }
   .first {
     grid-column: 1/3;
-    background-image: url(images/bg-pattern-quotation.svg);
+    background-image: url(../images/bg-pattern-quotation.svg);
     background-position: right 40px top 0;
     background-repeat: no-repeat;
   }
